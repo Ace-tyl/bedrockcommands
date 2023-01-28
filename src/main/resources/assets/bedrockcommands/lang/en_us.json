@@ -1,0 +1,4 @@
+{
+  "commands.daylock.true.success": "Day-Night cycle locked",
+  "commands.daylock.false.success": "Day-Night cycle unlocked"
+}

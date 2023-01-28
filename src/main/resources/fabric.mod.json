@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockcommands",
+  "version": "${version}",
+  "name": "Bedrock Commands in Java",
+  "description": "A mod that adds some bedrock commands to java",
+  "authors": [
+    "SodiumCl10"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bedrockcommands/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "sodiumcl10.bedrockcommands.client.BedrockcommandsClient"
+    ],
+    "main": [
+      "sodiumcl10.bedrockcommands.Bedrockcommands"
+    ]
+  },
+  "mixins": [
+    "bedrockcommands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
